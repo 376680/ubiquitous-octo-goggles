@@ -1,0 +1,37 @@
+Run npm run build
+
+> nextjs_tailwind_shadcn_ts@0.1.0 build
+> next build
+
+⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+   ▲ Next.js 15.3.5
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 8.0s
+   Skipping validation of types
+   Skipping linting
+   Collecting page data ...
+   Generating static pages (0/24) ...
+Error occurred prerendering page "/_not-found". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Event handlers cannot be passed to Client Component props.
+  {data-slot: "button", className: ..., onClick: function onClick, children: ...}
+                                                 ^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+    at e$ (/home/runner/work/urban-doodle/urban-doodle/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:17:23404)
+    at Object.toJSON (/home/runner/work/urban-doodle/urban-doodle/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:17:14854)
+    at stringify (<anonymous>)
+    at eF (/home/runner/work/urban-doodle/urban-doodle/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:17:26079)
+    at eq (/home/runner/work/urban-doodle/urban-doodle/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:17:26391)
+    at ez (/home/runner/work/urban-doodle/urban-doodle/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:17:26887)
+    at AsyncLocalStorage.run (node:async_hooks:338:14)
+    at /home/runner/work/urban-doodle/urban-doodle/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:17:27678
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+Export encountered an error on /_not-found/page: /_not-found, exiting the build.
+ ⨯ Next.js build worker exited with code: 1 and signal: null
+Error: Process completed with exit code 1.
